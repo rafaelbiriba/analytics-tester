@@ -12,7 +12,7 @@
 
 ### Creating a test case
 
-````
+``` ruby
   # initializing analytics faker
   before do
     proxy.stub('http://www.google-analytics.com/ga.js').and_return(
@@ -44,10 +44,13 @@
       end      
     end
   end
-````
+```
 
+### Supported Events
 
-
+  1. _trackPageView
+  2. _trackEvent
+  3. setCustomVar
 
 ## Contributors
 
